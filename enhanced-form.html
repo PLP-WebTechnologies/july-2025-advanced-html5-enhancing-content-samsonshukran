@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhancing HTML5</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:#ddd;
+            color: #333;
+            margin: 0;
+        }
+        h1 {
+            color:blue;
+            padding: 10;
+            
+        }
+        
+        h2 {
+            color: darkgreen;
+          
+        }
+
+
+        .register-btn {
+          background-color: blue;
+          color: green;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 10px;
+          cursor: pointer;
+          height: 50px; width: auto;
+        }
+       
+      
+      
+
+
+        h3 {
+          color:brown;
+        }
+
+
+    form {
+      
+    
+      max-width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px;
+      width: 100%;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #0056b3;
+
+    }    
+
+      
+  </style>
+
+
+</head>
+<body>
+    <h1>Enhancing HTML5 Content & Mastering Forms</h1>
+    
+
+
+    <section>
+        <h2>Enhanced HTML</h2>
+        <H3>Lists</H3>
+  
+        <ol>
+            <li>Cars and Where found mostly</li>
+                <ul type="square">
+                  <br>
+              <li>Seden</li>
+                 <ol type="i">
+                  <li>Kenya</li>
+                 <li>Tanzania</li>
+                 <li>Rwanda</li>
+                 <li>Uganda</li>
+                 </ol>
+<br>
+              <li>Hyundai Creta</li>
+              <ol type="i">
+                  <li>Somalia</li>
+                 <li>Mali</li>
+                 <li>Egypt</li>
+                 <li>Burundi</li>
+                 </ol>
+                 <br>
+              <li>Mahindra Scorpio</li>
+                 <ol type="i">
+                  <li>Russia</li>
+                 <li>China</li>
+                 <li>India</li>
+                 <li>Japan</li>
+                 </ol>
+                 <br>
+              <li>Defender</li>
+              <ol type="i">
+                  <li>Germany</li>
+                 <li>Kenya</li>
+                 <li>Qatar</li>
+                 <li>Niger</li>
+                 </ol>
+                 <br>
+              </ul>
+
+
+            <li>Bikes and Areas mostly used</li>
+             <ul type="disc">
+              <li>Touring Bikes</li>
+               <ol type="i">
+                  <li>Australia</li>
+                 <li>Morocco</li>
+                 <li>Maldives</li>
+                 <li>South Africa</li>
+                 </ol>
+                 <br>
+              
+<br>
+              <li>BMX Bikes</li>
+               <ol type="i">
+                  <li>America</li>
+                 <li>China</li>
+                 <li>Qatar</li>
+                 <li>Egypt</li>
+                 </ol>
+                 <br>
+            
+<br>
+              <li>Hybrid Bikes</li>
+               <ol type="i">
+                  <li>UK</li>
+                 <li>Italy</li>
+                 <li>Netherlands</li>
+                 <li>Russia</li>
+                 </ol>
+                 <br>
+              
+<br>
+              <li>Mountain Bikes</li>
+               <ol type="i">
+                  <li>South Africa</li>
+                 <li>Kenya</li>
+                 <li>America</li>
+                 <li>Brazil</li>
+                 </ol>
+                 <br>
+              
+<br>
+              </ul>
+            
+              <li>Buses</li>
+              <ul type="square">
+              <li>City Buses</li>
+              <ol type="i">
+                  <li>London</li>
+                 <li>Manchester</li>
+                 <li>Paris</li>
+                 <li>Nairobi</li>
+                 </ol>
+                 <br>
+              <li>Intercity Buses</li>
+              <ol type="i">
+                  <li>New York City</li>
+                 <li>Moscow</li>
+                 <li>Dubai</li>
+                 <li>Toronto</li>
+                 </ol>
+                 <br>
+              <li>Double Decker Buses</li>
+              <ol type="i">
+                  <li>England</li>
+                 <li>Algiers</li>
+                 <li>Saudi Arabia</li>
+                 <li>India</li>
+                 </ol>
+              </ul>
+
+            <li>Trucks</li>
+            <ul type="circle">
+              <li>Light Trucks</li>
+              <ol type="i">
+                  <li>Somalia</li>
+                 <li>Kenya</li>
+                 <li>Qatar</li>
+                 <li>Congo</li>
+                 </ol>
+                 <br>
+              <li>Medium Trucks</li>
+              <ol type="i">
+                  <li>Germany</li>
+                 <li>America</li>
+                 <li>Qatar</li>
+                 <li>Kenya</li>
+                 </ol>
+                 <br>
+              <li>Heavy Trucks</li>
+              <ol type="i">
+                  <li>Germany</li>
+                 <li>China</li>
+                 <li>North Korea</li>
+                 <li>Russia</li>
+                 </ol>
+                 <br>
+              </ul>
+        </ol>
+    </section>
+
+    <section  id="table">
+        <h2>Skill table</h2>
+       
+        <table>
+            <style>
+                table {
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+                th, td {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    border: 1px solid black;
+                }
+                th {
+                    background-color: #f2f2f2;
+                    text-align: left;
+                }
+            </style>
+         <tr>
+              <th>Full Name</th>
+              <th>Age</th>
+              <th>Residence</th>
+              <th>Gender</th>
+              <th>Skills</th>
+              <th>Grade</th>
+         </tr>
+         <tr>
+            <td>Yusuf Shukran</td>
+            <td>20</td>
+            <td>Kilifi</td>
+            <td>Male</td>
+            <td>HTML, CSS, JavaScript</td>
+            <td>A</td>
+         </tr>
+         <tr>
+            <td>Jane Safari</td>
+            <td>22</td>
+            <td>Mombasa</td>
+            <td>Female</td>
+            <td>Python, Django</td>
+            <td>B</td>
+         </tr>
+         <tr>
+            <td>Michael Juma</td>
+            <td>23</td>
+            <td>Nairobi</td>
+            <td>Male</td>
+            <td>Java, Spring</td>
+            <td>A-</td>
+         </tr>
+         <tr>
+            <td>Sarah Kadzo</td>
+            <td>25</td>
+            <td>Mtwapa</td>
+            <td>Female</td>
+            <td>JavaScript, React</td>
+            <td>B+</td>
+         </tr>
+
+        </table>
+    </section>
+
+   <!--media section-->
+    <section id="media">
+        <h2>Media section</h2>
+
+        <!--Image-->
+        <h3>My Favorite Nature Image</h3>
+        <img src="Media/my image.jpg image.jpg" style="max-width: 70%; height: auto; border: 2px dashed purple; border-radius: 8px;" alt="Nature Image">
+        <p>This is a beautiful image of nature that I love. It captures the beauty in the natural world.</p>
+
+        <!--Video-->
+        <h3>My Favorite Nature Video</h3>
+        <video controls style="max-width: 70%; height: auto; border: 2px dashed purple; border-radius: 8px;">
+            <source src="Media/Habitat.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!--Audio-->
+        <h3>My Favorite Nature Audio</h3>
+        <audio controls>
+            <source src="Media/My-music instruments.mp3" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+        
+    </section>
+
+    <section>
+        <!--form-->
+        <h2>Registration Form</h2>
+        <h3>Personal details</h3>
+        <form action="/submit" method="post">
+
+            <label>Full Name:</label>
+            <input type="text" name="fullname" pattern="[A-Za-z\s]+" minlength="3" required placeholder="Yusuf Shukran" autocomplete="name">
+         
+            <label>Email:</label>  
+            <input type="email" name="email" required placeholder="you@example.com" autocomplete="email"><br>
+         
+            
+            <label>Birth Date:</label>
+            <input type="date" pattern="dd/mm/yy" placeholder="1/1/2025"><br>
+        
+           <label>Website:</label>
+            <input type="url" name="website" placeholder="https://example.com" ><br>
+
+
+
+         </form>
+        <form>
+            <h3>Account Details</h3>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="samkran1" ><br>
+          
+      
+
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="@yus12" ><br>
+        
+            <label>Confirm Password:</label>
+            <input type="password" name="confirmpassword" placeholder="@yus12" ><br>
+          
+        </form>
+       
+        <br>
+        <br>
+          
+      <fieldset>
+
+
+        <label  for="bio">Your Bio</label>
+        <textarea id="bio" style="width: 500px; height:auto"      name="bio" placeholder="Tell us more about you"></textarea>
+        
+            <legend>Preference</legend>
+           <table>
+            <tr>
+               <label for="Skill">select skill</label>
+          <select id="Skill" name="Skill" required>
+            <option value="">--Choose--</option>
+            <option value="HTML">HTML</option>
+            <option value="PYTHON">PYTHON</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="CSS">CSS</option>
+
+            </tr>
+            <tr>
+               <label for="Skill">select level</label>
+          <select id="level" name="level;" required>
+            <option value="">--Choose--</option>
+            <option value="HTML">Beginner</option>
+            <option value="PYTHON">Intermediate</option>
+            <option value="JavaScript">Expert</option>
+            
+
+            </tr>
+           </table>
+
+
+
+
+            
+      </fieldset>
+
+           
+          <label for="terms">
+          <input type="checkbox" id="terms" name="terms" required />
+          I agree to the <a href="#">Terms and Conditions</a>
+        </label>
+         <br>
+         <br>
+   <button class="register-btn">Register</button>
+         
+            
+</body>
+</html>
